@@ -19,13 +19,30 @@ nav {
     height: 65px;
 }
 
+#Notícias{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .noticia {
+    margin: 10px;
 background-color: black;
 color: white;
 border: 1px solid white;
+text-align: center;
+border-radius: 15px;
 }
 
 .img_noticia {
     width: 600px;
+    border-radius: 14px;
     
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
