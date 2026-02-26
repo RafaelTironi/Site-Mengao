@@ -1,6 +1,9 @@
 body {
     margin: 0;
-    background-color: darkred;
+    background-image: url(assets/flamengo-clube-wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 nav {
@@ -39,6 +42,33 @@ border-radius: 15px;
     border-radius: 14px;
     
 }
+
+.escalacao{
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(255, 209, 123);
+    margin: 50px;
+   
+}
+
+#jogadores{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#icon_jogador{
+ height: 70px;
+ width: 80px;
+   
+}
+
+#gif{
+    right: 0px;
+    position: fixed;
+    bottom: 0px;
+}
+
 footer{
     padding: 10px;
     text-align: center;
