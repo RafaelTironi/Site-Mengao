@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: darkred;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: darkred;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    color: white;
+}
+
+#icon {
+    width: 65px;
+    height: 65px;
+}
+
+.noticia {
+background-color: black;
+color: white;
+border: 1px solid white;
+}
+
+.img_noticia {
+    width: 600px;
+    
+}
